@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Game canvas -->
+<canvas id="c"></canvas>
+
+<!-- Gameplay HUD -->
+<div class="hud">
+	<div class="hud__score">
+		<div class="score-lbl"></div>
+		<div class="cube-count-lbl"></div>
+	</div>
+	<div class="pause-btn"><div></div></div>
+	<div class="slowmo">
+		<div class="slowmo__bar"></div>
+	</div>
+</div>
+
+<!-- Menu System -->
+<div class="menus">
+	<div class="menu menu--main">
+		<h1>MENJA</h1>
+		<button type="button" class="play-normal-btn">O'yini boshlash</button>
+		<button type="button" class="play-casual-btn">tasodifiy rejim</button>
+		<div class="credits">loixa yaratuvchi <a href="https://t.me/webOely_us">XAMIDULLAYEV ASADULLA JAMOA UZOSTER GROUP</a></div>
+	</div>
+	<div class="menu menu--pause">
+		<h1>pauza</h1>
+		<button type="button" class="resume-btn">O'YINNI DAVOM ETTIRISH</button>
+		<button type="button" class="menu-btn--pause">BOSH SAHIFAGA QAYTISH</button>
+	</div>
+	<div class="menu menu--score">
+		<h1>O'yin tamom</h1>
+		<h2>Sizning ballingiz:</h2>
+		<div class="final-score-lbl"></div>
+		<div class="high-score-lbl"></div>
+		<button type="button" class="play-again-btn">Qayta Boshlash</button>
+		<button type="button" class="menu-btn--score">Asosiy menyu</button>
+	</div>
+</div>
+
+
+<script src="./script.js"></script>
+</body>
+</html>
